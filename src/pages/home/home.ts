@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { DynamicTheme } from '../dynamic-theme/dynamic-theme';
 import { TagsInput } from '../tags-input/tags-input';
 import { Rating } from '../rating/rating';
-
+import { SignatureContent } from '../signature-content/signature-content';
 
 /**
  * Generated class for the Home page.
@@ -50,8 +50,8 @@ export class Home {
         "value": "Rating"
       },
       {
-        "name": "3",
-        "value": "c"
+        "name": "Signature Pad ",
+        "value": "SignatureContent"
       }
     ]
   },
