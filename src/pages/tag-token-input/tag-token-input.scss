@@ -1,0 +1,15 @@
+page-tag-token-input {
+    [_nghost-c1] {
+        background-color: color($colors, primary);
+        border-radius: 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+    [_nghost-c1] .ng2-tag-input-remove[_ngcontent-c1] {
+        color: color($colors, primary);
+        background: #fff;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+    }
+}
