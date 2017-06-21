@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { DynamicTheme } from '../dynamic-theme/dynamic-theme';
-import { TagsInput } from '../tags-input/tags-input';
-import { Rating } from '../rating/rating';
-import { SignatureContent } from '../signature-content/signature-content';
+// import { DynamicTheme } from '../dynamic-theme/dynamic-theme';
+// import { TagsInput } from '../tags-input/tags-input';
+// import { Rating } from '../rating/rating';
+// import { SignatureContent } from '../signature-content/signature-content';
+// import { AccordionList } from '../accordion-list/accordion-list';
+
 
 /**
  * Generated class for the Home page.
@@ -52,6 +54,10 @@ export class Home {
       {
         "name": "Signature Pad ",
         "value": "SignatureContent"
+      },
+      {
+        "name": "Accordion List",
+        "value": "AccordionList"
       }
     ]
   },

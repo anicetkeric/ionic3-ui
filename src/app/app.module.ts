@@ -22,7 +22,12 @@ import { Ionic2RatingModule } from 'ionic2-rating';
 
 import { SignaturePadModule } from 'angular2-signaturepad';
 
+import { HttpModule } from '@angular/http';
+
 /****************************** DECLARATION*************************************************** */
+
+
+
 
 let appPages = [
   MyApp,
@@ -56,6 +61,7 @@ export function providers() {
    declarations: declarations(),
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp),
     RlTagInputModule,
     IonTagsInputModule,
