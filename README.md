@@ -9,3 +9,4 @@ Ionic components
 * [Taginput 1]( https://ionicacademy.com/ionic-tokeninput/)
 * [Taginput 2]( https://github.com/HsuanXyz/ionic-tags-input)
 
+ 
